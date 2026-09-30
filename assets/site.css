@@ -3,3 +3,5 @@ header nav a:last-child{margin-left:auto}
 .route-grid>a:nth-child(n+4){border-top:1px solid var(--line)}
 .route-grid>a:nth-child(4){padding-left:0;border-left:0}
 @media(max-width:700px){.route-grid>a:nth-child(n+4){border-top:0}}
+.intro--body{font:inherit;color:inherit;max-width:740px}
+html[lang=ja] .intro--body{line-height:1.95}
