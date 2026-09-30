@@ -1,0 +1,27 @@
+.about-portraits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 0 42px;
+}
+
+.about-portraits figure {
+  width: min(220px, calc(50% - 12px));
+  margin: 0;
+}
+
+.about-portraits img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #e8edf0;
+}
+
+.about-portraits figcaption {
+  margin-top: 9px;
+  font-size: .82rem;
+  color: var(--muted);
+}
